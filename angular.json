@@ -60,6 +60,7 @@
           },
           "configurations": {
             "hmr": {
+              "hmr": true,
               "browserTarget": "cinema-web:build:hmr"
             },
             "production": {
