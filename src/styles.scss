@@ -1,2 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-@import './assets/scss/theme';
+@import 'assets/scss/partial/variables';
+@import 'assets/scss/theme';
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/font-awesome/scss/font-awesome';
+@import 'assets/scss/partial/base';
