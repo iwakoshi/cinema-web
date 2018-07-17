@@ -1,0 +1,27 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <img style="height: 2rem; padding: 1rem" src="../../../../assets/img/angular.svg" alt="angular">
+    <span>Cinema Web</span>
+    <span class="example-spacer"></span>
+    <mat-icon class="example-icon">verified_user</mat-icon>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/filmes" routerLinkActive="active">Filmes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/series" routerLinkActive="active">Séries</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/noticias" routerLinkActive="active">Notícias</a>
+      </li>
+    </ul>
+    <div class="form-inline mt-2 mt-md-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Pesquisar" aria-label="Pesquisar">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+    </div>
+  </div>
