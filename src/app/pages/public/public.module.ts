@@ -6,11 +6,13 @@ import { MoviesComponent } from './movies/movies.component';
 import { SeriesComponent } from './series/series.component';
 import { NewsComponent } from './news/news.component';
 import { HomeComponent } from './home/home.component';
+import { MaterialModule } from '../../core/material/material.module';
 
 @NgModule({
   imports: [
     CommonModule,
-    PublicRoutingModule
+    PublicRoutingModule,
+    MaterialModule
   ],
   declarations: [HomeComponent, MoviesComponent, SeriesComponent, NewsComponent]
 })
